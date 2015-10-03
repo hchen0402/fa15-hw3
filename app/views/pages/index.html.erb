@@ -1,0 +1,9 @@
+<h1>These are your users: </h1>
+<%@users.each do |u| %>
+	<p>Username: <%=u.username%>    Email: <%=u.email%>      Age: <%=u.age%>      Gender: <%=u.gender%></p>
+<%end%>
+
+<h1>These are your cats: </h1>
+<%@cats.each do |y| %>
+	<p>Cat's Name: <%=y.name%></p>
+<% end %>

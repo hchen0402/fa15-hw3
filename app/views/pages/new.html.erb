@@ -1,0 +1,9 @@
+<h1>New user sign up</h1>
+
+<%= form_for @user do |f| %>
+  <%= f.text_field :username%>
+  <%= f.text_field :email%>
+  <%= f.number_field :age%>
+  <%= f.text_field :gender%>
+  <%= f.submit%>
+<% end %>
